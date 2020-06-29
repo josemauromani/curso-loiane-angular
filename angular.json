@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "curso-loiane-angular"
+    }
+  },
+  "defaultProject": "curso-loiane-angular",
+  "cli": {
+    "analytics": "9bb0ad44-5d39-407b-bacb-6619de339a30"
+  }
 }
