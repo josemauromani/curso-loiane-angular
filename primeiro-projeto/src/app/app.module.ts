@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { MeuSegundoComponent } from './meu-segundo/meu-segundo.component';
 import { CursosModule } from './cursos/cursos.module';
+import { InputPropertyComponent } from './input-property/input-property.component';
 
 // DECORATOR QUE INFORMA QUE ESSA CLASSE É UM MODULO
 @NgModule({
@@ -14,6 +15,7 @@ import { CursosModule } from './cursos/cursos.module';
     AppComponent,
     MeuPrimeiroComponent,
     MeuSegundoComponent,
+    InputPropertyComponent,
   ],
   imports: [
     BrowserModule, // prepara a aplicação para ser executada em um browser
