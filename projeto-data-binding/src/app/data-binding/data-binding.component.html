@@ -23,11 +23,12 @@
   </div>
 </article>
 -->
+        <!-- 
+
 <section class="two-way-binding">
   <article>
     <h3></h3>
       <div>
-        <!-- 
         <input type="text" 
         [value]="nome"
         (input)="nome = $event.target.value"
@@ -40,7 +41,6 @@
 
         <input type="text" 
         [(ngModel)]="nome" />
-        -->
 
         <input type="text" [(ngModel)]="pessoa.nome" />
         <p>Nome {{ pessoa.nome }}</p>
@@ -49,5 +49,13 @@
         <p>Nome {{ pessoa.idade }}</p>
 
       </div>
+  </article>
+</section>
+        -->
+
+<section class="input-output-properties">
+  <article>
+    <h3>Input/Output Properties</h3>
+    <app-curso [nome]="nomeDoCurso"></app-curso>
   </article>
 </section>
