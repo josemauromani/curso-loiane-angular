@@ -15,6 +15,8 @@ export class DataBindingComponent implements OnInit {
   isMouseOver: boolean = false;
   nome: String = 'abc'; 
 
+  valorInicial: number = 15;
+
   nomeDoCurso: string = 'Curso de Angular';
 
   pessoa: any  = {
@@ -44,6 +46,10 @@ export class DataBindingComponent implements OnInit {
 
   getCurtirCurso() {
     return true;
+  }
+
+  onMudouValor(evento) {
+    console.log(evento.novoValor);
   }
 
   constructor() { }

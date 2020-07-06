@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projeto-data-binding';
+
+  valor: number = 5;
+
+  mudarValor() {
+    this.valor++;
+  }
+
 }
